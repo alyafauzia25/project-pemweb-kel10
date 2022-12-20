@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;1,700&display=swap');
+
+body {
+  background-image: url('assets/img/bgobat2.jpg');
+  font-family: 'Poppins', sans-serif;
+  
+}
+.peng{
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 1280px 720px;
+}
+.kartu {
+  background-color: rgb(235, 232, 232);
+  width: 200px;
+  height: 350px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  font-family: 'Poppins', sans-serif;
+  background-repeat: no-repeat; 
+}
+.kartu img {
+  height: 200px;
+  width: 200px;
+}
+.kartu:hover {
+  background-color: cyan;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8);
+}
+.kartu- {
+  width: fit-content;
+}

@@ -1,0 +1,179 @@
+
+.row:after  {
+	content: '';
+	clear: both;
+	display: block;
+	margin: 0px; 
+} 
+ 
+.row div {
+	float: left; 
+}
+
+.huruf{
+	font-family: "sofia", sans-serif;
+}
+
+.center {
+	text-align: center; 
+}
+
+.font-white{
+	color: white;
+}
+
+.font-black{
+	color: black;
+}
+
+.padding-8 {
+	padding: 8px; 
+}
+.padding-16 {
+	padding: 16px;
+} 
+
+.padding-25{
+	padding: 25px;
+}
+
+.padding-28{
+	padding: 8px;
+}
+
+.padding-32 {
+	padding: 32px; 
+} 
+ 
+.padding-64 {
+	padding: 64px; 
+}
+.padding-128 {
+	padding: 128px;
+} 
+ 
+/*  For  mobile  phones:  */
+[class*="col-"] {
+	width: 100%;
+} 
+ 
+@media only screen and (min-width: 600px)  {
+	/*For tablets: (ukuran layar lebih besar dari 600px)  */
+	.col-m-1 {width: 8.33%;}
+	.col-m-2 {width: 16.66%;}
+	.col-m-3 {width: 25%;}
+	.col-m-4 {width: 33.33%;}
+	.col-m-5 {width: 41.66%;}
+	.col-m-6 {width: 50%;}
+	.col-m-7 {width: 58.33%;}
+	.col-m-8 {width: 66.66%;}
+	.col-m-9 {width: 75%;}
+	.col-m-10 {width: 83.33%;}
+	.col-m-11 {width: 91.66%;}
+	.col-m-12 {width: 100%;} 
+} 
+ 
+@media only screen and (min-width: 768px) {
+	/*For  desktop: (ukuran layar lebih besar dari 768px)*/
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;} 
+	.col-13 {width: 25%;}
+	.col-17 {width: 27.5%}
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+} 
+
+.img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.circle{
+	border-radius: 50%;
+}
+
+table {
+	border: 1px solid #ccc;
+	width: 100%;
+	margin:0;
+	padding: 5px;;
+	border-collapse: collapse;
+	border-spacing: 0; 
+} 
+ 
+
+.footer {
+  background-color: #013670;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+ 
+.container{
+	width: 100%;
+	margin: 0 auto;
+	padding: 10 px;
+}
+.navbar li{
+	display: inline-block;
+	width: 20%;
+	font-weight: bold;
+}
+
+.card{
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.profil{
+	margin: 0%;
+	margin-left: 0%;
+}
+
+.navbar{
+
+	position: relative;
+	display: block;
+	width: 80%;
+	border-radius: auto;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 0px;
+	font-size: medium;
+}
+
+.bg-un{
+	background-color: #dee2ff;
+}
+
+footer {
+	background-color: #eb8db5;
+	color: #ffffff;
+	text-align: center;
+	font-size: 12px;
+	padding: 15px;
+}
+
+.fix-header{
+	top: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}

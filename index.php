@@ -140,7 +140,7 @@ if(isset($_POST["submit_do"])){
                   <!--SECTION DESKRIPSI OBAT-->
                   <section>
                     <p style="padding:2%;"></p>
-                  <h2 class="mb-5 text-center text-light">Data Obat</h2>
+                  <h2 class="mb-5 text-center text-light">Deskripsi Obat</h2>
                   <!--Tambah/Add Obat deskripsi obat-->
                   <div class="card" id="deskripsi_obat"> 
                     <div class="card-header text-dark bg-primary fw-bold">
